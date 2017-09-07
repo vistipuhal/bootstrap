@@ -1,0 +1,115 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded `r Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+footer {
+   margin-top: 10px;
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+#features {
+   text-align: center;
+}
+
+.panel {
+   height:500px;
+}
+
+#p_item1{
+   background: url('../../images/con4.jpg') top center no-repeat;
+}
+
+#p_item2{
+   background: url('../../images/con3.jpg') top center no-repeat;
+}
+
+#p_item3{
+   background: url('../../images/con2.jpg') center no-repeat;
+   /*background-size:350px 500px;*/
+
+}
+
+.link_btn{
+margin-top:405px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+ #searchInput {
+   width: 200px;
+}
+  
+ .navbar-brand {
+   padding: 13px 15px;
+}
+     
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#carousel {
+   margin-top: 60px;
+}
+
+#carousel .item { height: 600px; }
+
+
+#slide1 {
+   background: url('../../images/ny.jpg') top center no-repeat;
+}
+#slide2 {
+   background: url('../../images/la.jpg') top center no-repeat;
+}
+#slide3 {
+   background: url('../../images/chicago.jpg') top center no-repeat;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
